@@ -13,7 +13,7 @@ humandate: "May 11-17, 2021"    # human-readable dates for the workshop (e.g., "
 humantime: "see below"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-05-11     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-05-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Lora Lennertz", "Mary Leverence", "Stephanie Pierce", "Austin Wilkins"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Lora Lennertz", "Mary Leverance", "Stephanie Pierce", "Austin Wilkins"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Jay McAllister"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["datalib@uark.edu","lennertz@uark.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/May-UARK-Carpentries # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -30,9 +30,6 @@ If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
-
-
-
 
 {% comment %}
 Check DC curriculum
@@ -83,24 +80,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
   opacity: 0.9;
 }
 </style>
-</td> </tr>
-      <tr> <td>May 13, 1 pm - 4:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
-<a id="s_lc_event_7732854" href="https://uark.libcal.com/calendar/Data/GitMay13">Version Control with Git </a>
-<!-- Below is optional element styling  //-->
-<style>
-#s_lc_event_7732854 {
-  background: #2774AE;
-  border: 1px solid #2774AE;
-  border-radius: 4px;
-  color: #F7F2F2;
-  font: 14px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_7732854:hover {
-  opacity: 0.9;
-}
-</style>
+
 </td> </tr>
        <tr> <td>May 17, 9 am - 12:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
 <a id="s_lc_event_7732907" href="https://uark.libcal.com/calendar/Data/UNIXMay17">Intro to Unix Shell </a>
@@ -214,18 +194,9 @@ address.
 </p>
 {% endif %}
 
-{% comment %}
-DATE
 
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
+DATE
+May 11 or May 17, 2021
 
 {% comment %}
 SPECIAL REQUIREMENTS
