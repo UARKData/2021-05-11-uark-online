@@ -64,7 +64,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
   <table>
 <table class="table table-striped">
 <tr> <td>May 11, 1 pm - 4:30 pm</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
-<a id = "s_lc_event_7732844" href="https://uark.libcal.com/calendar/Data/UnixMay11">Intro Unix Shell</a>
+<a id = "s_lc_event_7732844" href="https://uark.libcal.com/calendar/Data/UnixMay11">Introduction to Unix Shell</a>
 <!-- Below is optional element styling  //-->
   <style>
 #s_lc_event_7732844 {
@@ -83,7 +83,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 
 </td> </tr>
        <tr> <td>May 17, 9 am - 12:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
-<a id="s_lc_event_7732907" href="https://uark.libcal.com/calendar/Data/UNIXMay17">Intro to Unix Shell </a>
+<a id="s_lc_event_7732907" href="https://uark.libcal.com/calendar/Data/UNIXMay17">Introduction to Unix Shell </a>
 <!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_7732907 {
@@ -195,18 +195,6 @@ address.
 {% endif %}
 
 <strong>When:</strong>  May 11 or May 17 
-{% comment %}
-DATE
-
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
 
 {% comment %}
 SPECIAL REQUIREMENTS
