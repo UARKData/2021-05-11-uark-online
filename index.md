@@ -194,9 +194,19 @@ address.
 </p>
 {% endif %}
 
-
+<strong>When:</strong>  May 11 or May 17 
+{% comment %}
 DATE
-May 11 or May 17, 2021
+
+This block displays the date and links to Google Calendar.
+{% endcomment %}
+{% if page.humandate %}
+<p id="when">
+  <strong>When:</strong>
+  {{page.humandate}}.
+  {% include workshop_calendar.html %}
+</p>
+{% endif %}
 
 {% comment %}
 SPECIAL REQUIREMENTS
